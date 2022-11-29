@@ -214,6 +214,25 @@ r = requests.post("http://0.0.0.0:<PORT>/predict", json=json.loads(X.to_json()))
 print(r.json())
 ```
 
+## Streamlit
+
+Streamlit can be installed using:
+```Bash
+pip install streamlit
+```
+
+A template streamlit app is provided in `streamlit_app.py`. Feel free to deviate from the template (especially if going for the bonus).
+
+Once you've setup your environment, your Streamlit app can be run using:
+```Bash
+streamlit run streamlit_app.py
+```
+
+The above command should start the app and give the IP/port where it is running. Custom IP/ports can be specified using the `--server.address IP` and `--server.port PORT` flags respectively. Additional flags can be found [here](https://docs.streamlit.io/library/advanced-features/cli).
+
+To make changes to the app, simply change the `streamlit_app.py` script and reload the webpage to see the changes!
+
+
 ## Environments
 
 The first thing you should setup is your isolated Python environment.
