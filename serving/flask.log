@@ -1,0 +1,178 @@
+2022-11-24 16:28:42,575;INFO;Before first request
+2022-11-24 16:28:42,575;ERROR;Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/flask/app.py", line 1812, in full_dispatch_request
+    self.ensure_sync(func)()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/serving/app.py", line 67, in before_first_request
+    load_model()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/serving/app.py", line 35, in load_model
+    new_model = joblib.load(path)
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'model/logreg.joblib'
+2022-11-24 16:28:42,713;INFO;Before first request
+2022-11-24 16:28:42,713;ERROR;Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/flask/app.py", line 1812, in full_dispatch_request
+    self.ensure_sync(func)()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/serving/app.py", line 67, in before_first_request
+    load_model()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/serving/app.py", line 35, in load_model
+    new_model = joblib.load(path)
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'model/logreg.joblib'
+2022-11-24 16:28:43,792;INFO;Before first request
+2022-11-24 16:28:43,792;ERROR;Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/flask/app.py", line 1812, in full_dispatch_request
+    self.ensure_sync(func)()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/serving/app.py", line 67, in before_first_request
+    load_model()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/serving/app.py", line 35, in load_model
+    new_model = joblib.load(path)
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'model/logreg.joblib'
+2022-11-24 16:28:43,839;INFO;Before first request
+2022-11-24 16:28:43,839;ERROR;Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/flask/app.py", line 1812, in full_dispatch_request
+    self.ensure_sync(func)()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/serving/app.py", line 67, in before_first_request
+    load_model()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/serving/app.py", line 35, in load_model
+    new_model = joblib.load(path)
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'model/logreg.joblib'
+2022-11-24 16:29:00,057;INFO;Before first request
+2022-11-24 16:29:00,058;ERROR;Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/flask/app.py", line 1812, in full_dispatch_request
+    self.ensure_sync(func)()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/serving/app.py", line 67, in before_first_request
+    load_model()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/serving/app.py", line 35, in load_model
+    new_model = joblib.load(path)
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'model/logreg.joblib'
+2022-11-24 16:29:00,110;INFO;Before first request
+2022-11-24 16:29:00,110;ERROR;Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/flask/app.py", line 1812, in full_dispatch_request
+    self.ensure_sync(func)()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/serving/app.py", line 67, in before_first_request
+    load_model()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/serving/app.py", line 35, in load_model
+    new_model = joblib.load(path)
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'model/logreg.joblib'
+2022-11-24 16:30:08,610;INFO;Before first request
+2022-11-24 16:30:08,610;ERROR;Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/flask/app.py", line 1812, in full_dispatch_request
+    self.ensure_sync(func)()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/serving/app.py", line 67, in before_first_request
+    load_model()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/serving/app.py", line 35, in load_model
+    new_model = joblib.load(path)
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'model/logreg.joblib'
+2022-11-24 16:30:08,736;INFO;Before first request
+2022-11-24 16:30:08,737;ERROR;Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/flask/app.py", line 1812, in full_dispatch_request
+    self.ensure_sync(func)()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/serving/app.py", line 67, in before_first_request
+    load_model()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/serving/app.py", line 35, in load_model
+    new_model = joblib.load(path)
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'model/logreg.joblib'
+2022-11-24 16:30:31,912;INFO;Before first request
+2022-11-24 16:30:31,913;ERROR;Exception on /logs [GET]
+Traceback (most recent call last):
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/flask/app.py", line 1812, in full_dispatch_request
+    self.ensure_sync(func)()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/serving/app.py", line 67, in before_first_request
+    load_model()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/serving/app.py", line 35, in load_model
+    new_model = joblib.load(path)
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'model/logreg.joblib'
+2022-11-24 16:30:31,965;INFO;Before first request
+2022-11-24 16:30:31,966;ERROR;Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/flask/app.py", line 1812, in full_dispatch_request
+    self.ensure_sync(func)()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/serving/app.py", line 67, in before_first_request
+    load_model()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/serving/app.py", line 35, in load_model
+    new_model = joblib.load(path)
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'model/logreg.joblib'
+2022-11-24 16:33:12,337;INFO;Before first request
+2022-11-24 16:33:12,337;ERROR;Exception on /logs [GET]
+Traceback (most recent call last):
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/flask/app.py", line 1812, in full_dispatch_request
+    self.ensure_sync(func)()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/serving/app.py", line 67, in before_first_request
+    load_model()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/serving/app.py", line 35, in load_model
+    new_model = joblib.load(path)
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'model/logreg.joblib'
+2022-11-24 16:33:12,390;INFO;Before first request
+2022-11-24 16:33:12,391;ERROR;Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/flask/app.py", line 1812, in full_dispatch_request
+    self.ensure_sync(func)()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/serving/app.py", line 67, in before_first_request
+    load_model()
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/serving/app.py", line 35, in load_model
+    new_model = joblib.load(path)
+  File "/Users/marcojiralerspong/projects/ift6758-2021/project/milestone3/env/lib/python3.10/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'model/logreg.joblib'
+2022-11-24 16:34:17,017;INFO;Before first request
+2022-11-25 10:23:17,872;INFO;Before first request
+2022-11-25 10:24:57,821;INFO;{}
+2022-11-25 10:24:57,821;INFO;   shot_pred  goal_pred
+0         10         20
+1         30         20
+2022-11-25 10:25:09,889;INFO;{}
+2022-11-25 10:25:09,890;INFO;   shot_pred  goal_pred
+0         10         20
+1         30         20

@@ -1,0 +1,19 @@
+FROM python:3.7
+
+WORKDIR /code
+
+# Install codebase
+ADD ./ift6758 ./ift6758
+RUN pip install wheel && \ 
+    pip install -r ift6758/requirements.txt && \
+    pip install -e ift6758
+
+# Add application
+ADD ./main.py ./main.py
+
+ENV STREAMLIT_PORT=8892
+EXPOSE ${STREAMLIT_PORT}
+
+CMD streamlit run main.py --server.port ${STREAMLIT_PORT} --server.address 0.0.0.0
+
+# CMD jupyter-lab --port=${JUPYTER_PORT} --no-browser --ip=0.0.0.0 --allow-root

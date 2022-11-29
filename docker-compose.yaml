@@ -14,15 +14,15 @@ services:
 #    environment:
 #      DOCKER_ENV_VAR = ${LOCAL_ENV_VAR}
 ###### Uncomment below when you're ready to add the final notebook container to your docker compose
-##  jupyter:
+##  streamlit:
 ##    build:
 ##      context: ./
-##      dockerfile: ./Dockerfile.jupyter
+##      dockerfile: ./Dockerfile.streamlit
 ##      args:
 ##        ARG: <ARG>
-##    image: ift6758/jupyter:<TAG>
+##    image: ift6758/streamlit:<TAG>
 ##    ports:
-##      - <JUPYTER_PORT>:<JUPYTER_PORT>
+##      - <STREAMLIT_PORT>:<STREAMLIT_PORT>
 ##    environment:
 ##      OTHER_DOCKER_ENV_VAR = ${OTHER_LOCAL_ENV_VAR}
       
