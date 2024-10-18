@@ -14,13 +14,13 @@ Dans cette étape, nous nous concentrons sur l’acquisition et l’exploration 
 
 ### Structure de projet
 /ift6758_projet
-├── /data                # Stocke les données brutes et traitées
-├── /notebooks           # Notebooks Jupyter pour l'acquisition, l'exploration et la visualisation des données
-├── /src                 # Code source Python pour le traitement et la visualisation des données
-├── /images              # Tous les images utilisées dans les visualisations et tous les visualisations
-├── README.md            # Aperçu du projet et instructions
-├── environment.yml      # Fichier de configuration de l'environnement Conda
-└── requirements.txt     # Dépendances Python
+├── /data                # Stocke les données brutes et traitées  
+├── /notebooks           # Notebooks Jupyter pour l'acquisition, l'exploration et la visualisation des données  
+├── /src                 # Code source Python pour le traitement et la visualisation des données  
+├── /images              # Tous les images utilisées dans les visualisations et tous les visualisations  
+├── README.md            # Aperçu du projet et instructions  
+├── environment.yml      # Fichier de configuration de l'environnement Conda  
+└── requirements.txt     # Dépendances Python  
 
 ### Instructions d’Installation
 1. Cloner le Dépôt
