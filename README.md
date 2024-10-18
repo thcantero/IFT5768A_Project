@@ -14,7 +14,6 @@ Dans cette étape, nous nous concentrons sur l’acquisition et l’exploration 
 
 ### Structure de projet
 /ift6758_projet
-│
 ├── /data                # Stocke les données brutes et traitées
 ├── /notebooks           # Notebooks Jupyter pour l'acquisition, l'exploration et la visualisation des données
 ├── /src                 # Code source Python pour le traitement et la visualisation des données
