@@ -1,0 +1,50 @@
+---
+layout: default
+title: Home
+---
+<div>
+  <h1>Projet IFT 6758</h1>
+<img src="public/images/nhl_bg.png" alt="Logo NHL">
+
+<h2>Équipe: A-04</h2>
+<ul class="team-members">
+  <li><strong>Khalida Ghanem</strong> - <a style="font-size: 12px;" href="mailto:khalida.belgroune.epouse.ghanem@umontreal.ca">khalida.belgroune.epouse.ghanem@umontreal.ca</a></li>
+  <li><strong>Oumnia Boudersa</strong> - <a style="font-size: 12px;" href="mailto:oumnia.boudersa@umontreal.ca">oumnia.boudersa@umontreal.ca</a></li>
+  <li><strong>Thalia Cantero Rodriguez</strong> - <a style="font-size: 12px;" href="mailto:thalia.cantero.rodriguez@umontreal.ca">thalia.cantero.rodriguez@umontreal.ca</a></li>
+  <li><strong>Assetou Dite Soumba Camara</strong> - <a style="font-size: 12px;" href="mailto:assetou.dite.soumba.camara@umontreal.ca">assetou.dite.soumba.camara@umontreal.ca</a></li>
+</ul>
+</div>
+
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url | absolute_url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ paginator.next_page_path | absolute_url }}"></a>
+  {% else %}
+    <span class="pagination-item older"></span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ '/' | absolute_url }}"></a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ paginator.previous_page_path | absolute_url }}"></a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer"></span>
+  {% endif %}
+</div>
