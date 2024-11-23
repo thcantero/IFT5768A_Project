@@ -1,0 +1,8 @@
+#!/Users/thaliacantero/Documents/UdeM/2024 Automne/Science _de_donnes/Project/project-template/source/ift6758-venv/bin/python3.12
+# -*- coding: UTF-8 -*-
+from __future__ import print_function, division, absolute_import
+
+from numba.misc.numba_entry import main
+
+if __name__ == "__main__":
+    main()
