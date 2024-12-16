@@ -13,13 +13,13 @@ services:
     environment:
       WANDB_API_KEY: ${WANDB_API_KEY} # Pass WANDB_API_KEY from local environment to the container
 
-  # Uncomment below to add the Streamlit container
-  # streamlit:
-  #   build:
-  #     context: ./
-  #     dockerfile: ./Dockerfile.streamlit
-  #   image: ift6758/streamlit:latest
-  #   ports:
-  #     - "8501:8501" # Map Streamlit container port to host port
-  #   environment:
-  #     WANDB_API_KEY: ${WANDB_API_KEY} # Pass WANDB_API_KEY to Streamlit
+  #Uncomment below to add the Streamlit container
+  streamlit:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile.streamlit
+    image: ift6758/streamlit:latest
+    ports:
+      - "8501:8501" # Map Streamlit container port to host port
+    environment:
+      WANDB_API_KEY: ${WANDB_API_KEY} # Pass WANDB_API_KEY to Streamlit
