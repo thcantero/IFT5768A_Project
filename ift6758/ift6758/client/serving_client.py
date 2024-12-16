@@ -28,12 +28,42 @@ class ServingClient:
             X (Dataframe): Input dataframe to submit to the prediction service.
         """
 
-        raise NotImplementedError("TODO: implement this function")
+        try:
+            url = f"{self.base_url}/predict"
+            payload = X.to_json(orient="records")
+            headers = {"Content-Type": "application/json"}
+            response = requests.post(url, data=payload, headers=headers)
+
+            if response.status_code != 200:
+                logger.error(f"Error in prediction: {response.status_code}, {response.text}")
+                response.raise_for_status()
+
+            predictions = response.json().get("predictions", [])
+            return pd.DataFrame(predictions, columns=["predictions"], index=X.index)
+
+        except Exception as e:
+            logger.error(f"Exception during predict: {e}")
+            raise
+        
+        #raise NotImplementedError("TODO: implement this function")
 
     def logs(self) -> dict:
         """Get server logs"""
+        try:
+            url = f"{self.base_url}/logs"
+            response = requests.get(url)
 
-        raise NotImplementedError("TODO: implement this function")
+            if response.status_code != 200:
+                logger.error(f"Error retrieving logs: {response.status_code}, {response.text}")
+                response.raise_for_status()
+
+            return response.json().get("logs", {})
+
+        except Exception as e:
+            logger.error(f"Exception during logs retrieval: {e}")
+            raise
+
+        #raise NotImplementedError("TODO: implement this function")
 
     def download_registry_model(self, workspace: str, model: str, version: str) -> dict:
         """
@@ -50,5 +80,24 @@ class ServingClient:
             model (str): The model in the Comet ML registry to download
             version (str): The model version to download
         """
+        try:
+            url = f"{self.base_url}/download_registry_model"
+            payload = {
+                "workspace": workspace,
+                "model_name": model,
+                "version": version
+            }
+            headers = {"Content-Type": "application/json"}
+            response = requests.post(url, json=payload, headers=headers)
 
-        raise NotImplementedError("TODO: implement this function")
+            if response.status_code != 200:
+                logger.error(f"Error downloading model: {response.status_code}, {response.text}")
+                response.raise_for_status()
+
+            return response.json()
+
+        except Exception as e:
+            logger.error(f"Exception during model download: {e}")
+            raise
+
+        #raise NotImplementedError("TODO: implement this function")

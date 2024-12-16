@@ -14,27 +14,6 @@ FROM python:3.7
 # Create and cd into /code as your working directory
 WORKDIR /code
 
-# Copy the requirements file to the working directory
-COPY ./ift6758/requirements.txt /code/requirements.txt
-
-# Install Python dependencies
-RUN pip install --no-cache-dir -r requirements.txt
-
-# Copy the application code into the container
-COPY ./ift6758/ /code/ift6758/
-COPY ./serving/app.py /code/app.py
-
-# Set environment variable for WANDB_API_KEY
-# This value will be provided at runtime
-ENV WANDB_API_KEY=""
-
-# Expose Flask port (optional if not handled in docker-compose)
-EXPOSE 8000
-
-# Specify the default command to run the Flask app
-CMD ["python", "app.py"]
-
-
 
 # The main docker commands you will find useful:
 # 
