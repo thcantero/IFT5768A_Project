@@ -1,0 +1,34 @@
+{
+  "os":  "Windows-10-10.0.19045-SP0",
+  "python":  "3.12.0",
+  "startedAt":  "2024-12-23T09:49:32.227345Z",
+  "args":  [
+    "--listen=0.0.0.0:5000",
+    "app:app"
+  ],
+  "program":  "-m __main__",
+  "git":  {
+    "remote":  "https://github.com/udem-ift6758/docker-project-template.git",
+    "commit":  "9147395eb02120ba2b1a5a13f179cc64fe470647"
+  },
+  "email":  "assetou.dite.soumba.camara@umontreal.ca",
+  "root":  "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving",
+  "host":  "DESKTOP-0U634VI",
+  "username":  "Cloud",
+  "executable":  "C:\\Users\\Cloud\\anaconda3\\envs\\ift2125\\python.exe",
+  "cpu_count":  2,
+  "cpu_count_logical":  4,
+  "disk":  {
+    "/":  {
+      "total":  "511987150848",
+      "used":  "454968877056"
+    }
+  },
+  "memory":  {
+    "total":  "17049010176"
+  },
+  "cpu":  {
+    "count":  2,
+    "countLogical":  4
+  }
+}

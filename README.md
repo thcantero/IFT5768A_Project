@@ -32,13 +32,7 @@ Follow the instructions [here](https://docs.docker.com/get-docker/) to install D
 Included in this repo is a Dockerfile with brief explanations of the commands you will need to use
 to use to define your Docker image.
 One thing to note is that its generally a better idea to stick to using `pip` instead of Conda
-environments in Docker containers, as this approach is generally more lightweight than Conda.
-A common pattern is to copy the `requirements.txt` file into the docker container and then simply 
-do `pip install -r requirements.txt` (done in the Dockerfile).
-You can also copy an entire Python package (e.g. the `ift6758/` folder) into the container, and also
-do a simple `pip install -e ift6758/` (also from the Dockerfile).
-
-In addition, below are a list of useful docker commands that you will likely need.
+environments in Docker containers, as this approach is generally more lightweight than Conda.ands that you will likely need.
 
 ### docker build ([ref](https://docs.docker.com/engine/reference/commandline/build/))
 Builds a docker image directly the local Dockerfile (in the same directory):
@@ -51,6 +45,12 @@ docker build -t ift6758/serving:1.0.0 .
 
 ### docker images ([ref](https://docs.docker.com/engine/reference/commandline/images/))
 
+A common pattern is to copy the `requirements.txt` file into the docker container and then simply 
+do `pip install -r requirements.txt` (done in the Dockerfile).
+You can also copy an entire Python package (e.g. the `ift6758/` folder) into the container, and also
+do a simple `pip install -e ift6758/` (also from the Dockerfile).
+
+In addition, below are a list of useful docker comm
 Lists all images that are built.
 
 

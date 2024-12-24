@@ -1,0 +1,65 @@
+2024-12-23 14:11:23,513 INFO    waitress-1:31880 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2024-12-23 14:11:23,514 INFO    waitress-1:31880 [wandb_setup.py:_flush():79] Configure stats pid to 31880
+2024-12-23 14:11:23,514 INFO    waitress-1:31880 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Cloud\.config\wandb\settings
+2024-12-23 14:11:23,515 INFO    waitress-1:31880 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\wandb\settings
+2024-12-23 14:11:23,515 INFO    waitress-1:31880 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-12-23 14:11:23,515 WARNING waitress-1:31880 [wandb_setup.py:_flush():79] Could not find program at -m __main__
+2024-12-23 14:11:23,516 INFO    waitress-1:31880 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': None, 'program': '-m __main__'}
+2024-12-23 14:11:23,516 INFO    waitress-1:31880 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-12-23 14:11:23,516 INFO    waitress-1:31880 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-12-23 14:11:23,517 INFO    waitress-1:31880 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-12-23 14:11:23,517 INFO    waitress-1:31880 [wandb_init.py:_log_setup():533] Logging user logs to C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\wandb\run-20241223_141123-m4dyl78z\logs\debug.log
+2024-12-23 14:11:23,518 INFO    waitress-1:31880 [wandb_init.py:_log_setup():534] Logging internal logs to C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\wandb\run-20241223_141123-m4dyl78z\logs\debug-internal.log
+2024-12-23 14:11:23,518 INFO    waitress-1:31880 [wandb_init.py:init():619] calling init triggers
+2024-12-23 14:11:23,518 INFO    waitress-1:31880 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {}
+2024-12-23 14:11:23,519 INFO    waitress-1:31880 [wandb_init.py:init():664] wandb.init() called when a run is still active
+2024-12-23 14:12:53,858 INFO    waitress-2:31880 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2024-12-23 14:12:53,858 INFO    waitress-2:31880 [wandb_setup.py:_flush():79] Configure stats pid to 31880
+2024-12-23 14:12:53,859 INFO    waitress-2:31880 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Cloud\.config\wandb\settings
+2024-12-23 14:12:53,859 INFO    waitress-2:31880 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\wandb\settings
+2024-12-23 14:12:53,859 INFO    waitress-2:31880 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-12-23 14:12:53,860 WARNING waitress-2:31880 [wandb_setup.py:_flush():79] Could not find program at -m __main__
+2024-12-23 14:12:53,861 INFO    waitress-2:31880 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': None, 'program': '-m __main__'}
+2024-12-23 14:12:53,861 INFO    waitress-2:31880 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-12-23 14:12:53,861 INFO    waitress-2:31880 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-12-23 14:12:53,862 INFO    waitress-2:31880 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-12-23 14:12:53,863 INFO    waitress-2:31880 [wandb_init.py:_log_setup():533] Logging user logs to C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\wandb\run-20241223_141253-68g21u9s\logs\debug.log
+2024-12-23 14:12:53,863 INFO    waitress-2:31880 [wandb_init.py:_log_setup():534] Logging internal logs to C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\wandb\run-20241223_141253-68g21u9s\logs\debug-internal.log
+2024-12-23 14:12:53,864 INFO    waitress-2:31880 [wandb_init.py:init():619] calling init triggers
+2024-12-23 14:12:53,865 INFO    waitress-2:31880 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {}
+2024-12-23 14:12:53,865 INFO    waitress-2:31880 [wandb_init.py:init():664] wandb.init() called when a run is still active
+2024-12-23 14:13:32,485 INFO    waitress-3:31880 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2024-12-23 14:13:32,485 INFO    waitress-3:31880 [wandb_setup.py:_flush():79] Configure stats pid to 31880
+2024-12-23 14:13:32,486 INFO    waitress-3:31880 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Cloud\.config\wandb\settings
+2024-12-23 14:13:32,487 INFO    waitress-3:31880 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\wandb\settings
+2024-12-23 14:13:32,487 INFO    waitress-3:31880 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-12-23 14:13:32,488 WARNING waitress-3:31880 [wandb_setup.py:_flush():79] Could not find program at -m __main__
+2024-12-23 14:13:32,489 INFO    waitress-3:31880 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': None, 'program': '-m __main__'}
+2024-12-23 14:13:32,489 INFO    waitress-3:31880 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-12-23 14:13:32,489 INFO    waitress-3:31880 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-12-23 14:13:32,490 INFO    waitress-3:31880 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-12-23 14:13:32,491 INFO    waitress-3:31880 [wandb_init.py:_log_setup():533] Logging user logs to C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\wandb\run-20241223_141332-gc1hy5fy\logs\debug.log
+2024-12-23 14:13:32,492 INFO    waitress-3:31880 [wandb_init.py:_log_setup():534] Logging internal logs to C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\wandb\run-20241223_141332-gc1hy5fy\logs\debug-internal.log
+2024-12-23 14:13:32,492 INFO    waitress-3:31880 [wandb_init.py:init():619] calling init triggers
+2024-12-23 14:13:32,493 INFO    waitress-3:31880 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {}
+2024-12-23 14:13:32,493 INFO    waitress-3:31880 [wandb_init.py:init():664] wandb.init() called when a run is still active
+2024-12-23 14:14:17,436 INFO    waitress-0:31880 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2024-12-23 14:14:17,437 INFO    waitress-0:31880 [wandb_setup.py:_flush():79] Configure stats pid to 31880
+2024-12-23 14:14:17,438 INFO    waitress-0:31880 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Cloud\.config\wandb\settings
+2024-12-23 14:14:17,438 INFO    waitress-0:31880 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\wandb\settings
+2024-12-23 14:14:17,439 INFO    waitress-0:31880 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-12-23 14:14:17,440 WARNING waitress-0:31880 [wandb_setup.py:_flush():79] Could not find program at -m __main__
+2024-12-23 14:14:17,440 INFO    waitress-0:31880 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': None, 'program': '-m __main__'}
+2024-12-23 14:14:17,441 INFO    waitress-0:31880 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-12-23 14:14:17,442 INFO    waitress-0:31880 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-12-23 14:14:17,443 INFO    waitress-0:31880 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-12-23 14:14:17,444 INFO    waitress-0:31880 [wandb_init.py:_log_setup():533] Logging user logs to C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\wandb\run-20241223_141417-u6p4iud7\logs\debug.log
+2024-12-23 14:14:17,445 INFO    waitress-0:31880 [wandb_init.py:_log_setup():534] Logging internal logs to C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\wandb\run-20241223_141417-u6p4iud7\logs\debug-internal.log
+2024-12-23 14:14:17,446 INFO    waitress-0:31880 [wandb_init.py:init():619] calling init triggers
+2024-12-23 14:14:17,446 INFO    waitress-0:31880 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {}
+2024-12-23 14:14:17,447 INFO    waitress-0:31880 [wandb_init.py:init():664] wandb.init() called when a run is still active
+2024-12-23 14:29:28,453 WARNING MsgRouterThr:31880 [router.py:message_loop():75] message_loop has been closed

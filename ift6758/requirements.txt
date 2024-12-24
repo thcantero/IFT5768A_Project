@@ -15,3 +15,10 @@ comet_ml
 jupyterlab
 ipywidgets
 streamlit
+wandb
+requests
+joblib
+gunicorn
+Flask
+python-dotenv
+pillow

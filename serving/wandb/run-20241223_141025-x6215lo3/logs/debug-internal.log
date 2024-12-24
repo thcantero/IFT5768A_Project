@@ -1,0 +1,8 @@
+{"time":"2024-12-23T14:10:25.7119763-05:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-23T14:10:25.7119763-05:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\wandb\\run-20241223_141025-x6215lo3\\logs\\debug-core.log"}
+{"time":"2024-12-23T14:10:25.8419013-05:00","level":"INFO","msg":"created new stream","id":"x6215lo3"}
+{"time":"2024-12-23T14:10:25.842903-05:00","level":"INFO","msg":"stream: started","id":"x6215lo3"}
+{"time":"2024-12-23T14:10:25.8439176-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"x6215lo3"}
+{"time":"2024-12-23T14:10:25.8439176-05:00","level":"INFO","msg":"handler: started","stream_id":"x6215lo3"}
+{"time":"2024-12-23T14:10:25.8449023-05:00","level":"INFO","msg":"sender: started","stream_id":"x6215lo3"}
+{"time":"2024-12-23T14:10:26.1285578-05:00","level":"INFO","msg":"Starting system monitor"}

@@ -1,0 +1,633 @@
+[2024-12-23 04:49:34,045] INFO in app: Initialisation WandB réussie pour le projet IFT6758.2024-A04 et l'entité thalia-cantero-udem.
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 74, in emit
+    self.doRollover()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 179, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 115, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log" -> "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log.1"
+Call stack:
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1009, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1052, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 989, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 83, in handler_thread
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\channel.py", line 430, in service
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 167, in service
+    self.execute()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 435, in execute
+    app_iter = self.channel.server.application(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\proxy_headers.py", line 64, in translate_proxy_headers
+    return app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\app.py", line 148, in download_registry_model
+    app.logger.info(f"Initialisation WandB réussie pour le projet {project} et l'entité {entity}.")
+Message: "Initialisation WandB réussie pour le projet IFT6758.2024-A04 et l'entité thalia-cantero-udem."
+Arguments: ()
+[2024-12-23 04:49:34,082] INFO in app: Downloading model artifact from: thalia-cantero-udem/IFT6758.2024-A04/expected-goal-model-angle-and-distance:v1
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 74, in emit
+    self.doRollover()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 179, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 115, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log" -> "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log.1"
+Call stack:
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1009, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1052, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 989, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 83, in handler_thread
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\channel.py", line 430, in service
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 167, in service
+    self.execute()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 435, in execute
+    app_iter = self.channel.server.application(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\proxy_headers.py", line 64, in translate_proxy_headers
+    return app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\app.py", line 152, in download_registry_model
+    app.logger.info(f"Downloading model artifact from: {artifact_path}")
+Message: 'Downloading model artifact from: thalia-cantero-udem/IFT6758.2024-A04/expected-goal-model-angle-and-distance:v1'
+Arguments: ()
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+[2024-12-23 04:49:35,173] ERROR in app: Failed to download model: [Errno 2] No such file or directory: "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\models\\expected-goal-model-angle-and-distance.pkl"
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\app.py", line 159, in download_registry_model
+    loaded_model = joblib.load(model_file_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\joblib\numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\models\\expected-goal-model-angle-and-distance.pkl"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 74, in emit
+    self.doRollover()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 179, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 115, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log" -> "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log.1"
+Call stack:
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1009, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1052, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 989, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 83, in handler_thread
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\channel.py", line 430, in service
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 167, in service
+    self.execute()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 435, in execute
+    app_iter = self.channel.server.application(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\proxy_headers.py", line 64, in translate_proxy_headers
+    return app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\app.py", line 164, in download_registry_model
+    app.logger.error(f"Failed to download model: {e}")
+Message: 'Failed to download model: [Errno 2] No such file or directory: "C:\\\\Users\\\\Cloud\\\\OneDrive\\\\Bureau\\\\UdeM\\\\Session d\'automne\\\\data Science\\\\projet3\\\\python\\\\milestone3\\\\docker-project (1)\\\\docker-project\\\\models\\\\expected-goal-model-angle-and-distance.pkl"'
+Arguments: ()
+[2024-12-23 04:51:42,926] INFO in app: {'entity': 'thalia-cantero-udem', 'project': 'IFT6758.2024-A04', 'model': 'expected-goal-model-angle-and-distance', 'version': 'v1'}
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 74, in emit
+    self.doRollover()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 179, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 115, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log" -> "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log.1"
+Call stack:
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1009, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1052, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 989, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 83, in handler_thread
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\channel.py", line 430, in service
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 167, in service
+    self.execute()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 435, in execute
+    app_iter = self.channel.server.application(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\proxy_headers.py", line 64, in translate_proxy_headers
+    return app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\app.py", line 119, in download_registry_model
+    app.logger.info(json)
+Message: {'entity': 'thalia-cantero-udem', 'project': 'IFT6758.2024-A04', 'model': 'expected-goal-model-angle-and-distance', 'version': 'v1'}
+Arguments: ()
+[2024-12-23 04:51:42,997] INFO in app: Initialisation WandB réussie pour le projet IFT6758.2024-A04 et l'entité thalia-cantero-udem.
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 74, in emit
+    self.doRollover()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 179, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 115, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log" -> "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log.1"
+Call stack:
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1009, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1052, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 989, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 83, in handler_thread
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\channel.py", line 430, in service
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 167, in service
+    self.execute()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 435, in execute
+    app_iter = self.channel.server.application(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\proxy_headers.py", line 64, in translate_proxy_headers
+    return app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\app.py", line 148, in download_registry_model
+    app.logger.info(f"Initialisation WandB réussie pour le projet {project} et l'entité {entity}.")
+Message: "Initialisation WandB réussie pour le projet IFT6758.2024-A04 et l'entité thalia-cantero-udem."
+Arguments: ()
+[2024-12-23 04:51:43,026] INFO in app: Downloading model artifact from: thalia-cantero-udem/IFT6758.2024-A04/expected-goal-model-angle-and-distance:v1
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 74, in emit
+    self.doRollover()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 179, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 115, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log" -> "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log.1"
+Call stack:
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1009, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1052, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 989, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 83, in handler_thread
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\channel.py", line 430, in service
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 167, in service
+    self.execute()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 435, in execute
+    app_iter = self.channel.server.application(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\proxy_headers.py", line 64, in translate_proxy_headers
+    return app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\app.py", line 152, in download_registry_model
+    app.logger.info(f"Downloading model artifact from: {artifact_path}")
+Message: 'Downloading model artifact from: thalia-cantero-udem/IFT6758.2024-A04/expected-goal-model-angle-and-distance:v1'
+Arguments: ()
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+[2024-12-23 04:51:43,854] ERROR in app: Failed to download model: [Errno 2] No such file or directory: "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\models\\expected-goal-model-angle-and-distance.pkl"
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\app.py", line 159, in download_registry_model
+    loaded_model = joblib.load(model_file_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\joblib\numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\models\\expected-goal-model-angle-and-distance.pkl"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 74, in emit
+    self.doRollover()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 179, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 115, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log" -> "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log.1"
+Call stack:
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1009, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1052, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 989, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 83, in handler_thread
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\channel.py", line 430, in service
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 167, in service
+    self.execute()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 435, in execute
+    app_iter = self.channel.server.application(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\proxy_headers.py", line 64, in translate_proxy_headers
+    return app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\app.py", line 164, in download_registry_model
+    app.logger.error(f"Failed to download model: {e}")
+Message: 'Failed to download model: [Errno 2] No such file or directory: "C:\\\\Users\\\\Cloud\\\\OneDrive\\\\Bureau\\\\UdeM\\\\Session d\'automne\\\\data Science\\\\projet3\\\\python\\\\milestone3\\\\docker-project (1)\\\\docker-project\\\\models\\\\expected-goal-model-angle-and-distance.pkl"'
+Arguments: ()
+[2024-12-23 04:52:19,019] INFO in app: {'entity': 'thalia-cantero-udem', 'project': 'IFT6758.2024-A04', 'model': 'expected-goal-model-angle-and-distance', 'version': 'v1'}
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 74, in emit
+    self.doRollover()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 179, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 115, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log" -> "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log.1"
+Call stack:
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1009, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1052, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 989, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 83, in handler_thread
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\channel.py", line 430, in service
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 167, in service
+    self.execute()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 435, in execute
+    app_iter = self.channel.server.application(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\proxy_headers.py", line 64, in translate_proxy_headers
+    return app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\app.py", line 119, in download_registry_model
+    app.logger.info(json)
+Message: {'entity': 'thalia-cantero-udem', 'project': 'IFT6758.2024-A04', 'model': 'expected-goal-model-angle-and-distance', 'version': 'v1'}
+Arguments: ()
+[2024-12-23 04:52:19,080] INFO in app: Initialisation WandB réussie pour le projet IFT6758.2024-A04 et l'entité thalia-cantero-udem.
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 74, in emit
+    self.doRollover()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 179, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 115, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log" -> "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log.1"
+Call stack:
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1009, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1052, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 989, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 83, in handler_thread
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\channel.py", line 430, in service
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 167, in service
+    self.execute()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 435, in execute
+    app_iter = self.channel.server.application(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\proxy_headers.py", line 64, in translate_proxy_headers
+    return app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\app.py", line 148, in download_registry_model
+    app.logger.info(f"Initialisation WandB réussie pour le projet {project} et l'entité {entity}.")
+Message: "Initialisation WandB réussie pour le projet IFT6758.2024-A04 et l'entité thalia-cantero-udem."
+Arguments: ()
+[2024-12-23 04:52:19,123] INFO in app: Downloading model artifact from: thalia-cantero-udem/IFT6758.2024-A04/expected-goal-model-angle-and-distance:v1
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 74, in emit
+    self.doRollover()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 179, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 115, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log" -> "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log.1"
+Call stack:
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1009, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1052, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 989, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 83, in handler_thread
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\channel.py", line 430, in service
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 167, in service
+    self.execute()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 435, in execute
+    app_iter = self.channel.server.application(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\proxy_headers.py", line 64, in translate_proxy_headers
+    return app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\app.py", line 152, in download_registry_model
+    app.logger.info(f"Downloading model artifact from: {artifact_path}")
+Message: 'Downloading model artifact from: thalia-cantero-udem/IFT6758.2024-A04/expected-goal-model-angle-and-distance:v1'
+Arguments: ()
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+[2024-12-23 04:52:19,921] ERROR in app: Failed to download model: [Errno 2] No such file or directory: "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\models\\expected-goal-model-angle-and-distance.pkl"
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\app.py", line 159, in download_registry_model
+    loaded_model = joblib.load(model_file_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\joblib\numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\models\\expected-goal-model-angle-and-distance.pkl"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 74, in emit
+    self.doRollover()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 179, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 115, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log" -> "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log.1"
+Call stack:
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1009, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1052, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 989, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 83, in handler_thread
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\channel.py", line 430, in service
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 167, in service
+    self.execute()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 435, in execute
+    app_iter = self.channel.server.application(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\proxy_headers.py", line 64, in translate_proxy_headers
+    return app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\app.py", line 164, in download_registry_model
+    app.logger.error(f"Failed to download model: {e}")
+Message: 'Failed to download model: [Errno 2] No such file or directory: "C:\\\\Users\\\\Cloud\\\\OneDrive\\\\Bureau\\\\UdeM\\\\Session d\'automne\\\\data Science\\\\projet3\\\\python\\\\milestone3\\\\docker-project (1)\\\\docker-project\\\\models\\\\expected-goal-model-angle-and-distance.pkl"'
+Arguments: ()
+[2024-12-23 04:52:35,073] INFO in app: {'entity': 'thalia-cantero-udem', 'project': 'IFT6758.2024-A04', 'model': 'expected-goal-model-angle-and-distance', 'version': 'v1'}
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 74, in emit
+    self.doRollover()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 179, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 115, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log" -> "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log.1"
+Call stack:
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1009, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1052, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 989, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 83, in handler_thread
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\channel.py", line 430, in service
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 167, in service
+    self.execute()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 435, in execute
+    app_iter = self.channel.server.application(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\proxy_headers.py", line 64, in translate_proxy_headers
+    return app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\app.py", line 119, in download_registry_model
+    app.logger.info(json)
+Message: {'entity': 'thalia-cantero-udem', 'project': 'IFT6758.2024-A04', 'model': 'expected-goal-model-angle-and-distance', 'version': 'v1'}
+Arguments: ()
+[2024-12-23 04:52:35,141] INFO in app: Initialisation WandB réussie pour le projet IFT6758.2024-A04 et l'entité thalia-cantero-udem.
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 74, in emit
+    self.doRollover()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 179, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 115, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log" -> "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log.1"
+Call stack:
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1009, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1052, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 989, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 83, in handler_thread
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\channel.py", line 430, in service
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 167, in service
+    self.execute()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 435, in execute
+    app_iter = self.channel.server.application(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\proxy_headers.py", line 64, in translate_proxy_headers
+    return app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\app.py", line 148, in download_registry_model
+    app.logger.info(f"Initialisation WandB réussie pour le projet {project} et l'entité {entity}.")
+Message: "Initialisation WandB réussie pour le projet IFT6758.2024-A04 et l'entité thalia-cantero-udem."
+Arguments: ()
+[2024-12-23 04:52:35,173] INFO in app: Downloading model artifact from: thalia-cantero-udem/IFT6758.2024-A04/expected-goal-model-angle-and-distance:v1
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 74, in emit
+    self.doRollover()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 179, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 115, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log" -> "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log.1"
+Call stack:
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1009, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1052, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 989, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 83, in handler_thread
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\channel.py", line 430, in service
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 167, in service
+    self.execute()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 435, in execute
+    app_iter = self.channel.server.application(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\proxy_headers.py", line 64, in translate_proxy_headers
+    return app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\app.py", line 152, in download_registry_model
+    app.logger.info(f"Downloading model artifact from: {artifact_path}")
+Message: 'Downloading model artifact from: thalia-cantero-udem/IFT6758.2024-A04/expected-goal-model-angle-and-distance:v1'
+Arguments: ()
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+[2024-12-23 04:52:36,017] ERROR in app: Failed to download model: [Errno 2] No such file or directory: "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\models\\expected-goal-model-angle-and-distance.pkl"
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\app.py", line 159, in download_registry_model
+    loaded_model = joblib.load(model_file_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\joblib\numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\models\\expected-goal-model-angle-and-distance.pkl"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 74, in emit
+    self.doRollover()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 179, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\logging\handlers.py", line 115, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log" -> "C:\\Users\\Cloud\\OneDrive\\Bureau\\UdeM\\Session d'automne\\data Science\\projet3\\python\\milestone3\\docker-project (1)\\docker-project\\serving\\flask.log.1"
+Call stack:
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1009, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 1052, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\threading.py", line 989, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 83, in handler_thread
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\channel.py", line 430, in service
+    task.service()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 167, in service
+    self.execute()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\task.py", line 435, in execute
+    app_iter = self.channel.server.application(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\waitress\proxy_headers.py", line 64, in translate_proxy_headers
+    return app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Cloud\anaconda3\envs\ift2125\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Cloud\OneDrive\Bureau\UdeM\Session d'automne\data Science\projet3\python\milestone3\docker-project (1)\docker-project\serving\app.py", line 164, in download_registry_model
+    app.logger.error(f"Failed to download model: {e}")
+Message: 'Failed to download model: [Errno 2] No such file or directory: "C:\\\\Users\\\\Cloud\\\\OneDrive\\\\Bureau\\\\UdeM\\\\Session d\'automne\\\\data Science\\\\projet3\\\\python\\\\milestone3\\\\docker-project (1)\\\\docker-project\\\\models\\\\expected-goal-model-angle-and-distance.pkl"'
+Arguments: ()
