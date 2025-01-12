@@ -1,0 +1,7 @@
+{
+    "entity":"thalia-cantero-udem",
+    "project":"models_baseline",
+    "model": "logistic_regression_distance_angle",
+    "version": "0"
+}
+  
